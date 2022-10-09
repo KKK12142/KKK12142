@@ -1,0 +1,24 @@
+@import "reset.css";
+@import "login.css";
+@import "variable.css";
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap');
+@import "canvas.css";
+@import "header.css";
+@import "footer.css";
+@import "todo.css";
+body{
+      display: flex;
+      background-size: cover;
+      height: 100vh;
+      width: 100vw;
+      font-family: 'Jua', sans-serif;
+      font-weight: 600;
+      background: "img/KakaoTalk_20221009_094724442.jpg";
+      justify-content: center;
+      align-items: center;
+}
+
+.hidden{
+      display: none;
+}

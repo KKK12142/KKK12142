@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css">
+      <title>login</title>
+</head>
+
+<body background="img\KakaoTalk_20221009_094720353.jpg">
+      <header class="welcome-header">
+            <h1 class="welcome-title"><em>🐀"쥐"</em>가 사는 곳은 언제나 봄</h1>
+            <h2 class="welcome-text">쥐사진 공모전</h2>
+      </header>
+      <canvas>
+            <div class="container_left">
+                  <div class="picture">f</div>
+                  <div class="picture">f</div>
+                  <div class="picture">f</div>
+            </div>
+            <div class="container_center">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+            </div>
+            <div class="container_right">
+                  <div class="picture"></div>
+                  <div class="picture"></div>
+                  <div class="picture"></div>
+            </div>
+      </canvas>
+      <todo class="todo">
+            <form id="todo-form">
+                  <input type="text" placeholder="관람목록을 작성해보세요">
+            </form>
+            <ul id="todo-list">
+            </ul>
+      </todo>
+      <main class="login">
+            <div class="left_img">
+                  <img src="img\AdobeStock_291307076.jpeg" alt="">
+            </div>
+            <form class="login-form">
+                  <div class="login-form-text">
+                        <img src="img\AdobeStock_243600299.jpeg" alt="">
+                  </div>
+                  <div class="login-form-btn">
+                        <div class="login-form-btn-ID">
+                              <label  for="ID">예약자 이름</label>
+                              <input required id="ID" type="text" placeholder="이름을 입력하세요">
+                        </div>
+                        <div class="login-form-btn-PW">
+                              <label  for="PW">예약 번호</label>
+                              <input required id="PW" type="password"placeholder="예약번호를 입력하세요">
+                        </div>
+                        <div class="login-form-btn-LOGIN">
+                              <input id="login" type="submit" value="전시관 입장하기">
+                        </div>
+                  </div>
+            </form>
+      </main>
+      <footer class="footer">
+            <h1 id="clock">
+                  00:00
+            </h1>
+      </footer>
+      <script src="js/clock.js"></script>
+      <script src="js/todo.js"></script>
+      <script src="js/greetings.js"></script>
+</body>
+</html>
